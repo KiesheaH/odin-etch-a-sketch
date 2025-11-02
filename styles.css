@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto Condensed";
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background-color: #eee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app {
+  background-color: rebeccapurple;
+  height: 90vh;
+  width: 50vw;
+}
+
+.title {
+  font-size: 60px;
+  text-align: center;
+}
+
+.game {
+  display: flex;
+  height: 80%;
+  gap: 50px;
+}
+
+.settings {
+  background-color: orangered;
+  width: 10vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.setting h2 {
+  font-size: 32px;
+}
+
+.color {
+  background-color: yellow;
+  width: 90%;
+  height: 160px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.color p {
+  height: 75px;
+  width: 85px;
+  background-color: green;
+  border: 10px solid black;
+}
+
+.color h4 {
+  width: 55px;
+  font-size: 16px;
+}
+
+.color .font,
+.color .background {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.grid h4 {
+  font-size: 24px;
+}
+
+.buttons {
+  width: 100%;
+  text-align: center;
+}
+
+.btn {
+  padding: 10px;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+.sketchpad {
+  background-color: blue;
+  height: 100%;
+  width: 45vw;
+}

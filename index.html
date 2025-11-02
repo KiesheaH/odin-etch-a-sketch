@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Etch-A-Sketch</title>
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- ETCH-A-SKETCH GAME -->
+    <div class="app">
+      <!-- HEADING -->
+      <h1 class="title">Etch-A-Sketch</h1>
+
+      <!-- GAME SETTINGS -->
+      <div class="game">
+        <div class="settings">
+          <h2>Settings</h2>
+
+          <div class="settings options">
+            <!--  COLOR -->
+            <div class="color">
+              <div class="font">
+                <p>&nbsp;</p>
+                <h4>Color</h4>
+              </div>
+
+              <!-- BACKGROUND COLOR -->
+              <div class="background">
+                <p>&nbsp;</p>
+                <h4>Background Color</h4>
+              </div>
+            </div>
+
+            <!-- GRID SIZE -->
+            <div class="grid">
+              <h4>Grid Size: 1x1</h4>
+              <input type="range" min="1" max="10" />
+            </div>
+
+            <!-- GRID LINES -->
+            <div class="buttons">
+              <div class="btn">
+                <button class="btn grid">GRID LINES: ON</button>
+              </div>
+
+              <!-- RAINBOW -->
+              <div class="btn">
+                <button class="btn rainbow">RAINBOW</button>
+              </div>
+
+              <!-- DARKEN -->
+              <div class="btn">
+                <button class="btn darken">DARKEN</button>
+              </div>
+
+              <!-- LIGHTEN -->
+              <div class="btn">
+                <button class="btn lighten">LIGHTEN</button>
+              </div>
+
+              <!-- ERASE -->
+              <div class="btn">
+                <button class="btn eraser">ERASER</button>
+              </div>
+
+              <!-- CLEAR -->
+              <div class="btn">
+                <button class="btn clear">CLEAR</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="sketchpad"></div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
