@@ -24,23 +24,34 @@
         <div class="settings">
           <h2>Settings</h2>
 
-          <div class="settings options">
+          <div class="options">
             <!--  COLOR -->
             <div class="color">
               <h4>Color</h4>
-              <p>&nbsp;</p>
+              <input type="color" class="color_picker" />
             </div>
 
             <!-- GRID SIZE -->
             <div class="grid">
-              <h4>Grid Size: 1x1</h4>
-              <input type="range" min="1" max="10" />
+              <h4>
+                Grid Size: <span class="row">1</span>x<span class="column"
+                  >1</span
+                >
+              </h4>
+              <input
+                type="range"
+                min="1"
+                max="16"
+                step="1"
+                value="1"
+                class="slider"
+              />
             </div>
 
             <!-- GRID LINES -->
             <div class="buttons">
               <div class="btn">
-                <button class="btn grid">GRID LINES</button>
+                <button class="btn gridLines">GRID LINES</button>
               </div>
 
               <!-- RAINBOW -->
@@ -70,9 +81,21 @@
             </div>
           </div>
         </div>
-        <div class="sketchpad"></div>
+        <div class="grid_container"></div>
       </div>
     </div>
+    <footer>
+      <p class="footer">Copyright &copy KiesheaH</p>
+      <ion-icon name="logo-github" class="github"></ion-icon>
+    </footer>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
     <script src="script.js"></script>
   </body>
 </html>
